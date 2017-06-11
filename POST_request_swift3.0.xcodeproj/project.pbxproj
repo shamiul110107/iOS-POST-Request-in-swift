@@ -14,6 +14,7 @@
 		960CB8961EED03C000B5E92E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960CB8941EED03C000B5E92E /* LaunchScreen.storyboard */; };
 		960CB8A11EED03C000B5E92E /* POST_request_swift3_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960CB8A01EED03C000B5E92E /* POST_request_swift3_0Tests.swift */; };
 		960CB8AC1EED03C000B5E92E /* POST_request_swift3_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960CB8AB1EED03C000B5E92E /* POST_request_swift3_0UITests.swift */; };
+		960CB8BA1EED03E600B5E92E /* apiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960CB8B91EED03E600B5E92E /* apiCall.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		960CB8A71EED03C000B5E92E /* POST_request_swift3.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POST_request_swift3.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		960CB8AB1EED03C000B5E92E /* POST_request_swift3_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POST_request_swift3_0UITests.swift; sourceTree = "<group>"; };
 		960CB8AD1EED03C000B5E92E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960CB8B91EED03E600B5E92E /* apiCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = apiCall.swift; path = ../apiCall.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				960CB88B1EED03C000B5E92E /* AppDelegate.swift */,
+				960CB8B91EED03E600B5E92E /* apiCall.swift */,
 				960CB88D1EED03C000B5E92E /* ViewController.swift */,
 				960CB88F1EED03C000B5E92E /* Main.storyboard */,
 				960CB8921EED03C000B5E92E /* Assets.xcassets */,
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				960CB8BA1EED03E600B5E92E /* apiCall.swift in Sources */,
 				960CB88E1EED03C000B5E92E /* ViewController.swift in Sources */,
 				960CB88C1EED03C000B5E92E /* AppDelegate.swift in Sources */,
 			);

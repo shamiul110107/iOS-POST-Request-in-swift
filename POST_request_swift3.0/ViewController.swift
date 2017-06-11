@@ -8,18 +8,22 @@
 
 import UIKit
 
+let url = "http://www.windmillinfotech.com/carlife/carlife_api/get_thana"
+let parameter = "district=Dhaka"
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+        let callApi = apiCall()
+        
+        callApi.getDataFromJson(url: url, parameter: parameter, completion: { response in
+            
+           let thanaArray = response["thana_info"] as! NSArray
+            print(thanaArray[0])
+        })
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
 
 }
 
